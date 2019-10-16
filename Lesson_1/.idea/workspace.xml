@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7296f089-0603-4fb6-a6f8-424e994bdaf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Dict/Case_dict_nr_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Dict/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Lists/Case_listy_nr_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Lists/Case_listy_nr_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Lists/Case_listy_nr_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Lists/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Praca_z_doc/Case_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Praca_z_doc/Case_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Praca_z_doc/Case_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Praca_z_doc/Case_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Praca_z_doc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Set/Case_set_nr_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Set/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Tuple/Case_tuple_nr_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/Tuple/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_3/Lesson_4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_FOR/Case_FOR_nr_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_FOR/Case_FOR_nr_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_FOR/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_FOR/instruction_for.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_FOR/instruction_for_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_IF_ELIF_ELSE/Case_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_IF_ELIF_ELSE/Case_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_IF_ELIF_ELSE/Case_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_IF_ELIF_ELSE/Case_5a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_IF_ELIF_ELSE/Instruction_elif_else.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_IF_ELIF_ELSE/Instruction_if.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_IF_ELIF_ELSE/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_while/Case_While_nr_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_while/Case_While_nr_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_while/Instruction_while_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_while/Instruction_while_case_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_while/Instruction_while_case_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lesson_4_Kolekcje/Instruction_while/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Lesson_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lesson_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_2/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7296f089-0603-4fb6-a6f8-424e994bdaf9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +22,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson_3/Lesson_4/Tuple" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

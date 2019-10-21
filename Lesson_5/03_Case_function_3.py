@@ -1,0 +1,1 @@
+# W prosty sposób obsłuż błąd użytkownika - użytkownik zapyta o numer w bazie , który nie istnieje.

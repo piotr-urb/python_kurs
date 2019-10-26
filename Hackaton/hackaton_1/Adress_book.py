@@ -1,4 +1,10 @@
 # Adress book:
+# program pozwala na wybór jednej z 4 opcji
+# 1 - list all records"
+# 2 - enter a new record"
+# 3 - delete an exist record"
+# 4 - exit"
+# każdy wybór odwołuje się do osobnej funkcji dodania, usunięcia rekordu lub wyswietlenia wszystkich rekordów książki
 
 address_book = [{'Surname' : 'Kowalski', 'Name' : 'Jan', 'Phone' : '123456789', 'address': 'jan.kowalski@wp.pl', 'City' : 'Poznań'},
                 {'Surname' : 'Mickiewicz', 'Name' : 'Adam', 'Phone' : 'unknown','address': 'adam.mickiewicz@wp.pl','City' : 'Cemetery'},

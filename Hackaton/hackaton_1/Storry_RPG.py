@@ -96,16 +96,15 @@ def select_character(select):
 
 
 def main_menu():
-    print (" Who you want to bee ?")
-    return (" Select an option:"
-            "\n1 - Wizard"
-            "\n2 - Barbarian"
-            "\n3 - Knight"
-            "\n4 - Necromancer")
-
-user_choice = input("Choose the character put number from 1 to 4:")
-select_character(user_choice)
-
+    print(" Who you want to bee ?")
+    print(" Select an option:")
+    print(" 1 - Wizard")
+    print(" 2 - Barbarian")
+    print(" 3 - Knight")
+    print(" 4 - Necromancer")
+    user_choice = input("Choose the character put number from 1 to 4:")
+    select_character(user_choice)
+main_menu()
 
 
 

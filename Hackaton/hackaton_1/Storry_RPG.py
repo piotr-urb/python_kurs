@@ -13,8 +13,16 @@ import random
 def lottery():
     numbers = ['1', '2', '3', '4']
     arg = random.choice(numbers)
-    print("I randomly choose numder : ", arg)
+    print("I randomly choose number : ", arg)
     select_character(arg)
+
+
+def roll_the_dice():
+    cubes_wall = ['1', '2', '3', '4', '5', '6']
+    dice_number = random.choice(cubes_wall)
+    print("You rolled the dice dropped out: ", dice_number)
+    return dice_number
+
 
 
 def wizard_story():
@@ -29,10 +37,35 @@ def wizard_story():
         wizard_story()
 
 
-
-
 def barbarian_story():
     print("This is the Barbarian Story")
+    print("If you wont to know what is your mission you need to go to the tavern, there will be a man in red hat")
+    print("You went to a tavern and you meet a man who sad: Roll the dice and I will tale you what to do next")
+    choice = input(" Do you wont to play y/n:")
+    if choice == 'y':
+        print("Lest play then")
+        dice_number = roll_the_dice()
+        if dice_number == '1':
+            print(" You are a tomato eater ")
+        elif dice_number == '2':
+            print(" You are a radish eater ")
+        elif dice_number == '3':
+            print(" You are a radish eater ")
+        elif dice_number == '4':
+            print(" You are a radish eater ")
+        elif dice_number == '5':
+            print(" You are a radish eater ")
+        elif dice_number == '6':
+            print(" You are a radish eater ")
+
+    elif choice == 'n':
+        print("So what do you wont to do:")
+        answer = input()
+        print(answer)
+    else:
+        print("Wrong choice try again")
+        barbarian_story()
+
 
 
 def knight_food(select):
@@ -69,7 +102,7 @@ def knight_story():
         print("So what do you wont to do:")
     else:
         print("Wrong choice try again")
-        wizard_story()
+        knight_story()
 
 
 def necromancer_story():

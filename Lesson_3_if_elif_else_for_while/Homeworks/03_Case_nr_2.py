@@ -5,5 +5,5 @@ secret_number = '7'
 print("Podaj numer od 1 do 20:")
 number = str(input())
 while number != secret_number:
-    print("Spróbuj jeszcze raz, podaj numer:")
+    print("Spróbuj jeszcze raz. Podaj numer:")
     number = str(input())

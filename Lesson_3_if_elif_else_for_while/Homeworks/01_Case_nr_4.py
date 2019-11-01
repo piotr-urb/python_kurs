@@ -10,3 +10,14 @@ if len(string) > 5:
     print("String is longest then 5 letters")
 else:
     print("String is shorter then 5 letters")
+
+letter = 'a'
+list = ''
+if letter in string:
+    print("****************************")
+    print(string)
+    list = string.split(string, len(string))
+    print(list)
+else:
+    print("----------------------------")
+    print(string)

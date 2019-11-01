@@ -7,3 +7,4 @@ number = str(input())
 while number != secret_number:
     print("Spróbuj jeszcze raz. Podaj numer:")
     number = str(input())
+print("Gratulacje, szukana liczba to:", secret_number)

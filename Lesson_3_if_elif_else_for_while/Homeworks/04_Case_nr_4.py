@@ -71,7 +71,7 @@ for a in range(int(round)):
             komp_score = komp_score + 0
             print("Komputer score:", komp_score)
             print("User score:", user_score)
-        if user_choice == 'n' and komp_choice == 'n':
+        elif user_choice == 'n' and komp_choice == 'n':
             print("It is unsolved game: ")
             user_score = user_score + 0
             komp_score = komp_score + 0

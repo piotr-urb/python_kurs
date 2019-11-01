@@ -6,20 +6,23 @@
 #	Jeśli użytkownik zgadnie wygrywa gracz.
 #	Jeśli po 6 próbach użytkownik nie zgadnie - wygrywa komputer.
 import random
-import math
 
 def lotery():
-    number = range(100)
-    arg = random.choice(number)
-    print("Komputer randomly choose number : ", arg)
+    secret_number = random.randint(1, 100)
+    return secret_number
 
-    return arg
-komp_choice = lotery()
-user_choice = input()
-for a in range(komp_choice):
-    print("What is your number")
-    user_choice = input()
-    if user_choice == komp_choice:
-        print("Congratulation you win")
-    elif user_choice != komp_choice:
-        print("Try _again")
+print("I thin abaut number from 1 to 100:")
+komp_choice = int(lotery())
+for a in range(1, 7):
+    print("What is your choice try to guess the number:")
+    user_choice = int(input())
+    if user_choice < komp_choice:
+        print("Your number is too low, its cold")
+    elif user_choice > komp_choice:
+        print("Your number is too high, its cold")
+    else:
+        break
+if user_choice == komp_choice:
+    print("Congratulation, You  guess the secret number:", komp_choice)
+else:
+    print("You loose, the number you should have guess:", komp_choice)

@@ -1,0 +1,37 @@
+class Fifo:
+    def __init__(self, elements):
+        self.element = elements
+    def show(self):
+       print(self.elements)
+
+
+    def __str__(self):
+        return ",".join(self.elements)
+
+
+    def get(self):
+        if len(self.elements) == 0:
+            return "brak elementów"
+        else:
+            return self.elements.pop(0)
+
+
+    def put(self,value):
+
+        self.elements.append(value)
+        print(self.elements)
+        return "dodano"
+
+
+list_elem = ["a", "b", "c","d"]
+print(list_elem)
+fifo_1 = Fifo(list_elem)
+value = input("Podaj element")
+fifo_1.put(value)
+
+print(fifo_1)
+print(fifo_1.show())
+print(fifo_1.get())
+print(fifo_1)
+print(fifo_1.put())
+

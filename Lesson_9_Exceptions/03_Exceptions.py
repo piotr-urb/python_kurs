@@ -5,7 +5,7 @@ try:
     result = 4/x
 except ValueError as e:
     # handle ValueError exception
-    print(e)
+    print("Ve",e)
 except (TypeError, ZeroDivisionError) as e:
     print(e)
 except:

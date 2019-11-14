@@ -1,0 +1,30 @@
+#1▹ Utwórz listę lists_to_dict zawierającą listy 2 elementowe. Przekształć ją w słownik dict_from_list.
+#2▹ Utwórz listę lub krotkę tuples_to_dict zawierającą krotki 2 elementowe. Przekształć ją w słownik dict_from_tuples.
+#3▹ Utwórz dowolną tablicę n x n zawierającą dowolny znak, a następnie wyświetl jej elementy w formie tabeli n x n. Elementy powinny być oddzielone spacją
+#wejście:
+#n = 3
+#tab = [['-', '-', '-']
+#  ['-', '-', '-'],
+# ['-', '-', '-']]
+#wyjście:
+#- - -
+#- - -
+#- - -
+#4▹ Utworz tabliczkę mnożenia jako zagnieżdżoną listę o rozmiarze 10 x 10, wypełnioną wynikami mnożenia wiersz × kolumna.
+#5▹ W wierszu policz wystąpienie każdego wyrazu, zignoruj wielkość liter.
+#"""Szybko, zbudź się, szybko, wstawaj
+#Szybko, szybko, stygnie kawa
+#Szybko, zęby myj i ręce"""
+#Zadbaj o sposób wyświetlania np.:
+#szybko : 5
+#zbudź : 1
+#6▹ Utwórz listę zawierającą wartości poniższego słownika, bez duplikatów.
+#>>> days = {'Jan': 31, 'Feb': 28, 'Mar': 31, 'Apr': 30, 'May': 31, 'Jun': 30, 'Jul': 31, 'Aug': 31, 'Sept': 30}
+#7▹ Usuń duplikat z podanej list i utwórz na jej bazie krotkę. Znajdź minimalną i maksymalną liczbę w krotce.
+#>>>  example_list = [34, 17, 25, 41, 12, 194, 41, 3, 12, 99, 94]
+#8▹ Utwórz słownik dla 10 krajów Europy zawierajacy listy 10 najpopularniejszych imion żeńskich. Zapisz imiona w wersji anglojęzycznej. Dodaj wszystki listy razem. Nowa lista powinna zawierać 100 elementów.
+#Wyświetl tylko te imiona, które wystąpiły conajmniej w 3 krajach.
+#9▹ 5 użytkowników poproś o podanie 4 przedmiotów szkolnych, sprawdź czy przedmioty powtarzają się na listach. Wyświetl najpopularniejszy przedmiot. (Uwzględnij fakt, że użytkownicy mogą zapisać przedmioty małymi, drukowanymi lub zaczynając od dużej litery)
+#10▹ Użytkownik podaje dowolną liczbę N. Napisz, który wygeneruje słownik, wg zasady, że każdej liczbie przyporządkowany jest jej kwadrat (n : n * n).
+#Załóżmy, że użytkownik podał N = 8
+#Wynik: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}

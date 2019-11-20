@@ -76,7 +76,7 @@ def open_eqfile_tav():
 
     adventurer = content[0].split()[1]
     purse = (content[3].split()[1])
-    user_armor = (content[4].split(":")[1])
+    user_weapon = (content[4].split(":")[1])
     user_armor = (content[5].split(":")[1])
     enter_tav()
 

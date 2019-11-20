@@ -10,7 +10,7 @@ class Employee:
         self.is_student = is_student
 
     def salary_bump (self):
-        self.salary *=1.07
+        self.salary *= 1.07
         return self.salary
     def tax(self):
         return self.salary *0.02

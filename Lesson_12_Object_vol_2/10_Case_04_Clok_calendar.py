@@ -26,3 +26,5 @@ class Zegarko_kalendarz(Zegarek, Kalendarz):
 zk = Zegarko_kalendarz()
 print(zk.current_time())
 print(zk.current_date())
+print(zk.current_date())
+print(zk.current_date())

@@ -100,7 +100,7 @@ def city_direction(player):
         enter_the_tavern(player)
     elif decision == "order":
         print("order")
-        # enter_the_order()
+        enter_the_order()
     else:
         print("Please write 'tavern' or 'order'.")
         city_direction(player)

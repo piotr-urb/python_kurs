@@ -14,21 +14,21 @@ class Player:
     def __str__(self):
         return f"{self.name} has {self.life} % life and {self.weapon} current weapon and {self.money} gold coins in pocket."
 
-    # dodawanie (ujemne) money
-    def wallet(self):
-        pass
-
-    # dodawanie weapon
-    def buy(self):
-        pass
-
-    # odejmowanie hp
-    def damage(self):
-        pass
-
-    # dodawanie hp
-    def heal(self):
-        pass
+    # # dodawanie (ujemne) money
+    # def wallet(self):
+    #     pass
+    #
+    # # dodawanie weapon
+    # def buy(self):
+    #     pass
+    #
+    # # odejmowanie hp
+    # def damage(self):
+    #     pass
+    #
+    # # dodawanie hp
+    # def heal(self):
+    #     pass
 
 
 def main_menu():

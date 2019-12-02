@@ -100,28 +100,30 @@ def city_direction(player):
         enter_the_tavern(player)
     elif decision == "order":
         print("order")
-        enter_the_order()
+        enter_the_order(player)
     else:
         print("Please write 'tavern' or 'order'.")
         city_direction(player)
 
 
-def enter_the_order():
+def enter_the_order(player):
     print("Nice to meet you a stranger, please I had some mission to you")
     print("Chose one of the mission below:")
     print("1- Mission nr 1 - River")
     print("2- Mission nr 2 - Gold Mine")
     print("3- Go back to a tavern")
     answer = input("Please what is your answer:")
+    print(player)
     if answer == "1":
-        r.river()
+        r.river(player, dragon)
+
     elif answer == "2":
-        m.mine()
+        m.mine(player)
     elif answer == "3":
-        enter_the_tavern()
+        enter_the_tavern(player)
     else:
         print(" Wrong choice try again")
-        enter_the_order()
+        # enter_the_order(player)
 
 
 

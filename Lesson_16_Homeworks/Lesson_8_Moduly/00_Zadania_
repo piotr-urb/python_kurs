@@ -1,0 +1,37 @@
+Zadania
+
+1▹ Stwórz moduł, który będzie przechowywał funkcję obliczającą bmi.py. Zaimportuj module do pliku fitmeter.py. Nowy plik będzie informował użytkownika o jego aktualnym BMI i na podstawie wyniku (niedowaga, nadwaga, otyłość) sugerował zmiany w stylu życia pobierane z odpowiedniego pliku.
+
+Utwórz plik bmi.py zawierający metodę obliczania bmi. Metoda zwraca wartości: niedowaga, waga normalna, nadwaga, otyłość.
+
+Utwórz 4 pliki .txt zawierające porady.
+
+Utwórz plik fitmeter.py, który zaimportuje moduł bmi.
+
+fitmeter.py pobierze wagę i wzrost pacjenta i przekaże do odpowiedniej funkcji z modułu bmi.
+
+Na podstawie zwróconej wartości fitmeter.py wyświetli odpowiednie porady dla pacjenta.
+
+2▹ Stwórz moduł, który przechowuje wzór na deltę. Skorzystaj z wbudowanego modułu math. W nowym pliku wykorzystaj moduł.
+
+3▹ Stwórz moduł, który zajmuje się jedynie otwieraniem plików - oferuje bezpieczny sposób odczytu oraz bezpieczny zapis. Funkcja czytająca pliki sprawdza najpierw czy dany plik istnieje oraz czy jest niepusty. Funkcja zapisująca do pliku chroni przed nadpisaniem istniejącego pliku.
+
+4▹ Zmodyfikuj swoją grę wisielec tak, aby w dowolny uzasadniony sposób wykorzystać moduł lub moduły.
+
+5▹ Stwórz moduł obliczający pola różnych figur. W nowym pliku utwórz skrypt, który na podstawie podanych składowych kształtów pomieszczeń oraz ich wymiarów zwraca powierzchnię budynku.
+
+6▹ Stwórz program, który dla dowolnego ciągu znajduje najdłuższą sekwencję takich samych znaków oraz jej długość np.
+
+Wejście:
+var = ‘banannnnannnnnnnnnanananananaaaana’
+
+Wyjście
+‘nnnnnnnnn’, 9
+
+Utwórz generator instancji testowych, który wygeneruje losowe ciągi znaków składające się z jedynie z cyfr od 0-9. Upewnij się, że conajmniej 2 takie same znaki znajdą się w sekwencji.
+
+Zmodyfikuj generator tak, by oczekiwał znaków podanych przez użytkownika np. użytkownik podaje 4 znaki: ‘a’, ‘b’, ‘c’, ‘*’.
+
+Zaimportuj generator bezpośrednio do programu.
+
+8▹ Stwórz moduł, który dla dowolnej wartości n, zwróci ciąg fibonnaciego.

@@ -1,6 +1,7 @@
 import dice
 import moving
 import river
+import mine
 
 
 def enter_the_city(player):

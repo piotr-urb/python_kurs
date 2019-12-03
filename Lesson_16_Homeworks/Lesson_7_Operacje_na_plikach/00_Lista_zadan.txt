@@ -1,0 +1,37 @@
+# Zadania:
+#
+# 1▹ Utwórz plik na pulpicie zawierający listę ok. 20 cytatów. Każdy cytat powinen się znaleźć w nowej linii. Utwórz funkcję, która losuje i wyświetla w sposób ciekawy cytat na dziś. Np. można wyświetlić tak:
+#
+# Quote of the day is:
+#
+# **************************************
+#            be or not to be?
+# **************************************
+# zmodyfikuj plik źródłowy, tak aby użytkownik mógł podać własną nazwę pliku z cytatami
+#
+# plik z cytatami powinen również zawierać informację o autorze, wyświetl cytat i pod spodem autora
+#
+# 2▹ Zapoznaj się z modułem os. Sprawdź rozmiar utworzonego przez siebie pliku.
+#
+# 3▹ Wyświetl tylko 5 pierwszych linii
+#
+# 4▹ Wyświetl 3 losowe cytaty
+#
+# 5▹ Wykorzystaj plik zawierający fragment Pana Tadeusza. Znajdź najdłuższe słowo występujące w zadanym fragmencie.
+#
+# 6▹ Rozpoznawanie kart. Utwórz plik zawierający numery kart kredytowych. Sprawdź dla każdej kart jej typ.
+# Podziel kart do plików wg typów np. visa.txt, mastercard.txt, americanexpress.txt.
+#
+# 7▹ Wisielec. Utwórz plik zawierający listę słów wg. kategorii np. zwierzęta, owoce etc. Poproś użytkownika o podanie kategorii przed rozpoczęciemy gry.
+# Następny wczytaj listę haseł do programu, wylosuj jedno hasło z listy. Rozgrywka powinna być maksymalnie intuicyjna.
+#
+# 8* ▹ Utwórz generator dowolnego typu np. generator zdań, tweetów czy konferencji.
+# Dane wejściowe pobierz z pliku csv (plik csv możesz traktować jako plik txt ze znanym znakiem podziału), który będzie przechowywał dane potrzebne do generowania.
+#
+# Przykład z generatora konferencji: http://generatorkonferencji.pl (niektóre potrafią wyjść zabawne). Wygenerujcie kilka. Czy widzicie wzorzec?
+#
+# Przykład generatora cytatów: http://wisdomofchopra.com/ (Można wykorzystać istniejące dane wejściowe json, lub przepisać na własny format danych).
+#
+# 9* ▹ Korzystając z Google dowiedz się więcej o kodowaniu ASCII. Utwórz plik, który tworzy prostą zaszyfrowaną wiadomość.
+# Każdą literę tekstu zapisuje za pomocą dziesiętnych wartości kodów ASCII. Przykładowo literze A odpowiada numer 65.
+# Zapoznaj się z metodami ord() oraz char(). Pamiętaj o dodaniu znaku podziału. Utwórz drugi skrypt, który rozszyfruje wiadomość

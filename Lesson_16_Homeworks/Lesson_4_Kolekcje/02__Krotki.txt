@@ -1,0 +1,25 @@
+# Zadania
+#
+# 1▹ Stwórz krotkę zawierającą dane twojego pupila (rodzaj zwierzecia, rasa, jak się wabi). Następnie rozpakuj tę krotkę na pojedyńcze zmienne. Wykorzystaj zmienne do wyświetlenia f-stringa, tak by mogło powstać zdanie np. “Mój pies, rasy border collie wabi się Dyzio”.
+#
+# 2▹ Stwórz krotkę. Znajdź powtarzające się elementy krotki. Wyświetl je.
+#
+# 3▹ Stwórz krotkę liczb całkowitych. Poproś użytkownika o podanie dowolnej liczby. Jeśli liczba znajduje się na krotce wyswietl jej indeks.
+
+#------------------------------------
+# 1▹ Utwórz dowolną krotkę, w której elementy mogą się powtarzać. Przekształć ją w set.
+#
+# 2▹ Utwórz listę L_test = [1, 2, 3, 4], krotkę T_test = (1, 2, 3, 4) oraz set S_test = {1, 2, 3, 4}. Jakie metody dostępne dla typu list nie będą działać dla typów tuple i set?
+#
+# 3▹ Utwórz 2 krotki. Następnie utwórz listę będącą połączeniem elementów o parzystym indeksie z pierwszej krotki, a oraz nieparzystych elementów z drugiej.
+#
+# 4▹ Napisz skrypt, który podaną listę podzieli na 3 równe listy i odwraca każdą z tych.
+#
+# input: [1, 2, 3, 4, 11, 12, 13, 14, 21, 22, 23, 24]
+#
+# output:
+#
+# [4, 3, 2, 1]
+# [14, 13, 12, 11]
+# [24, 23, 22, 21]
+# 5▹ Porównaj zachowanie discard() vs remove() dla typu set.

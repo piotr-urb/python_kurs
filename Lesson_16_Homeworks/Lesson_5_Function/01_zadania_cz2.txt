@@ -1,0 +1,67 @@
+# Zadania:
+#
+# 1▹ Skorzystaj ze swojego kodu bmi.py. Rozbij liczenie bmi na funkcję obliczającą bmi na podstawie danych użytkownika oraz zwracającą odpowiednią wartość (niedowaga, waga normalna, nadwaga, otyłość) w zależności od otrzymanego parametru.
+#
+# 2▹ Nie korzystając z funkcji wbudowanej min(), napisz funkcję znajdującą minimalną wartość z 3 liczb. minimum_of(a, b, c).
+#
+# 3▹ Nie korzystając z funkcji wbudowanej max(), napisz funkcję znajdującą maksymalną wartość z 3 liczb. maximum_of(a, b, c).
+#
+# 4▹ Napisz funkcję, która sprawdzi, czy liczba występuje w podanym przez użytkownika zakresie. Powinna zwrócić komunikat: “tak, liczba x znajduje się w zadanym zakresie”, “nie, liczba x jest z poza zakresu”.
+#
+# 5▹ Napisz grę ciepło - zimno tak, aby korzystać z funkcji.
+#
+# 6▹ Napisz grę kamień-papier-nożyce tak, aby korzystać z funkcji.
+#
+# 7▹ Napisz program, który na podstawie numeru karty odpowie czy ma doczynienia z Visą, MasterCard, a może AmericanExpress.
+#
+# Co wiemy o tych numerach tych kart?
+#
+# All Visa card numbers start with a 4. New cards have 16 digits. Old cards have 13.
+#
+# MasterCard numbers either start with the numbers 51 through 55 or with the numbers 2221 through 2720. All have 16 digits.
+#
+# American Express card numbers start with 34 or 37 and have 15 digits.
+#
+# 8▹ Napisz program, który będzie sprawdzał, czy nasz samochód kwalifikuje się do zarejestrowania jako zabytek.
+#
+# Program zacznie ze stworzonym słownikiem o trzech kluczach:
+# marka (str)
+#
+# model (str)
+#
+# rocznik (int)
+#
+# Wypisze ten słownik na ekran (bez żadnego formatowania)
+#
+# Sprawdzi, czy samochód ma minimum 25 lat. Jeśli tak, wypisze komunikat:
+# “Gratulacje! Twój samochód (tutaj_marka) może być zarejestrowany jako zabytek.”
+#
+# Jeśli nie spełnia powyższego warunku, wypisze komunikat:
+# “Twój samochód (tutaj_marka) jest jeszcze zbyt młody.”
+#
+# Gdy program będzie poprawnie działał, pozmieniaj wartości słownika (ale nie klucze!), aby zobaczyć, czy progam również zmienia swoje zachowanie.
+#
+# 9▹ Kolejnym warunkiem, aby dostać “żółte tablice”, jest to, aby samochód posiadał co najmniej 75% oryginalnych części. W naszym zadaniu zakładamy, że rzeczoznawca określił jego oryginalność w kategorii tak/nie.
+#
+# Poniżej stworzenia i wyświetlenia słownika w zadaniu powyżej:
+# dopisz do słownika nowy klucz czy_oryginalny i ustaw jego wartość (typ: bool) wedle uznania.
+#
+# ponownie wyświetl zmieniony słownik
+#
+# Zmodyfikuj program tak, aby uwzględnił decyzję o możliwości zarejestrowania samochodu również od jego oryginalności. Dopisz odpowiednie komunikaty.
+#
+# 10▹ Stwórz grę wisielec “bez wisielca”.
+#
+# Komputer losuje wyraz z dostępnej w programie listy wyrazów.
+#
+# Wyświetla zamaskowany wyraz z widoczną liczbą znaków (np. ‘- - - - - - -‘)
+#
+# Użykownik podaje literę.
+#
+# Sprawdź, czy litera istnieje w wyrazie. Jeśli tak, wyświetl mu komunikat:
+# “Trafione!” oraz napis ze znanymi literami.
+#
+# W przeciwnym wpadku pokaż komunikat:
+# “Nie trafione, spróbuj jeszcze raz!”.
+#
+# Możesz ograniczyć liczbę prób do np. 10.
